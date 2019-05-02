@@ -1,0 +1,12 @@
+[package]
+name = "y4m-diff"
+description = "Compare 2 y4m files"
+version = "0.1.0"
+authors = ["Luca Barbato <lu_zero@gentoo.org>"]
+edition = "2018"
+
+[dependencies]
+y4m = "0.3"
+structopt = "0.2"
+log = "0.4"
+pretty_env_logger = "0.3"
